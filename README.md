@@ -1,6 +1,6 @@
 # QuizApp
 
-This template should help get you started developing with Vue 3 in Vite.
+Users can answer questions related to the selected subject field and get thier score as a result. 
 
 ## Recommended IDE Setup
 
