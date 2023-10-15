@@ -28,11 +28,15 @@
 <style scoped>
 .question-container{
     margin-top: 20px;
+    
 
+  }
+  .options-container{
+    padding-right: 20px;
   }
   .question{
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 20px;
     color: aliceblue;
   }
   .option{
@@ -43,16 +47,24 @@
   .option-label{
     background-color: bisque;
     width: 50px;
-    height: 50px;
-    font-size: 30px;
+    /* height: fit-content; */
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5px;
   }
   .option-value{
     background-color: rgb(244,239,239);
     width: 100%;
-    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
     padding: 0 20px;
+  }
+  @media only screen and(max-width: 900px){
+     .question{
+      font-size: 20px;
+     }
   }
 </style>

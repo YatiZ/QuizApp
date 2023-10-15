@@ -48,16 +48,19 @@ header h1{
 }
 header input{
   border: none;
-  background-color:rgba(15, 237, 15, 0.471) ;
+  background-color:rgba(185, 248, 185, 0.471) ;
   padding: 10px;
   border-radius: 5px;
   color: aliceblue;
+  width: 200px;
+  font-size: 15px;
 }
 
 .options-container{
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  justify-content: center;
 
 }
 /* Card styles */

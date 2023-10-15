@@ -13,6 +13,7 @@ console.log(quiz)
 
 
 <template>
+ 
     <div class="card" @click="navigateToQuiz">
         <img :src="quiz.img" alt="">
         <div class="card-text">
@@ -20,9 +21,14 @@ console.log(quiz)
             <p>{{ quiz.questions.length }}questions</p>
         </div>
     </div>
+ 
 </template>
 <style scoped>
+
+
+
 .card{
+  
   width: 310px;
   overflow: hidden;
   border-radius: 2%;

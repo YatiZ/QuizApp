@@ -11,7 +11,7 @@
         <h1>
             {{ numberOfCorrectAnswers }}/{{ quizQuestionLength }}
         </h1>
-        <RouterLink to="/">Go Back</RouterLink>
+        <RouterLink to="/" class="back">Go Back</RouterLink>
     </div>
 </template>
 <style scoped>
@@ -28,5 +28,8 @@ p{
 h1{
     font-size: 80px;
     color: aliceblue;
+}
+.back{
+    font-size: 35px;
 }
 </style>
